@@ -1,0 +1,130 @@
+﻿<Window x:Class="Tema_MVP_Dictionar.Divertisment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema_MVP_Dictionar"
+        mc:Ignorable="d"
+        Title="Divertisment" Height="450" Width="800">
+    <Grid Background="#261132" Margin="0,0,0,295.4">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#261132"
+              Margin="0,4.8,0,-323.8"
+              Grid.Row="1">
+
+            <Button Content="Start game"
+                    HorizontalAlignment="Left"
+                    Margin="45,71,0,0"
+                    VerticalAlignment="Top"
+                    Width="211"
+                    Height="103"
+                    Background="Purple" Click="Button_Click">
+
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Viewbox>
+                            <TextBlock>Start</TextBlock>
+                        </Viewbox>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+                <Run.Foreground>
+                    <LinearGradientBrush>
+                        <GradientStop Color="Purple" Offset="0.0" />
+                        <GradientStop Color="Orange" Offset="0.25" />
+                        <GradientStop Color="Green" Offset="0.50" />
+                        <GradientStop Color="Blue" Offset="1.00" />
+
+                    </LinearGradientBrush>
+                </Run.Foreground>
+            </Button>
+
+            <Button Name="forNextBtn"
+                    HorizontalAlignment="Left"
+                    Margin="625,215,0,0"
+                    VerticalAlignment="Top"
+                    Width="119"
+                    Height="44"
+                    Background="Purple"
+                    Click="Button_Click_1"
+                    FontSize="25"
+                    Content="Next"
+                    Visibility="Hidden">
+
+                <!--<Button.ContentTemplate>
+                    <DataTemplate>
+                        <Viewbox>
+                            <TextBlock>Next</TextBlock>
+                        </Viewbox>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+                <Run.Foreground>
+                    <LinearGradientBrush>
+                        <GradientStop Color="Pink" Offset="0.25" />
+                        <GradientStop Color="Orange" Offset="0.5" />
+                        <GradientStop Color="Green" Offset="0.75" />
+                        <GradientStop Color="Blue" Offset="1.00" />
+
+                    </LinearGradientBrush>
+                </Run.Foreground>-->
+            </Button>
+
+
+            <TextBox Name="hintBtn"
+                     HorizontalAlignment="Left"
+                     Height="167"
+                     Margin="365,43,0,0"
+                     TextWrapping="Wrap"
+                     VerticalAlignment="Top"
+                     Width="379"
+                     Canvas.Top="50" 
+                     Canvas.Left="20"
+                     FontSize="25"
+                     Foreground="Yellow"
+                     Background="#261132"
+                     RenderTransformOrigin="0.507,-0.097"/>
+
+            <TextBox Name="Answer"
+                     HorizontalAlignment="Left"
+                     Height="44"
+                     Margin="365,215,0,0"
+                     TextWrapping="Wrap"
+                     VerticalAlignment="Top"
+                     Width="255"/>
+            <TextBlock Name="correctWord"
+                       HorizontalAlignment="Left"
+                       Margin="131,215,0,0"
+                       TextWrapping="Wrap"
+                       VerticalAlignment="Top"
+                       Height="44"
+                       Width="183"/>
+
+
+
+        </Grid>
+
+        <TextBlock Margin="195,27,193.6,3.8"
+                   RenderTransformOrigin="0.506,0.336"
+                   TextAlignment="Center">
+            
+       <Run FontWeight="Bold"
+            FontSize="50"
+            Text="Dex_Game" />
+            
+            <Run.Foreground>  
+            <LinearGradientBrush>   
+                <GradientStop Color="#F9DEC9" Offset="0.0" />   
+                <GradientStop Color="Purple" Offset="0.25" />   
+                <GradientStop Color="Orange" Offset="0.5" />   
+                <GradientStop Color="Blue" Offset="0.75" />   
+                <GradientStop Color="#3E2F5B" Offset="1.0" />   
+                <GradientStop Color="#BA5C12" Offset="1.25" />   
+                
+              </LinearGradientBrush>   
+        </Run.Foreground>
+        </TextBlock >
+    </Grid>
+</Window>

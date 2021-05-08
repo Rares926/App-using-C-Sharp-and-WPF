@@ -1,0 +1,16 @@
+mere,Fruct al mărului de formă rotundă-turtită și de diferite culori,fruct
+merisoare,Fruct al merisorului de formă rotundă și de diferite culori,fruct
+mers,Actiunea de a te transporta la o viteza constanta in fata,actiune
+melanina,Pigment organic de culoare neagră care conține fier și sulf și care se găsește în coroidă în păr ori în piele,textil
+pere,Fruct al copacului par de forma ovala cu gust dulceag,fruct
+nuci,ructul comestibil al cocotierului,fruct
+masina,Sistem tehnic alcătuit din piese cu mișcări determinate care transformă o formă de energie în altă formă de energie sau în lucru mecanic util,automobil
+autobuz,Automobil cu caroseria închisă sau parțial decapotabilă folosit la transportul în comun al unui număr mare de persoane,automobil
+tenis,Joc sportiv care se practică cu mingi mici lovite cu rachete de către doi sportivi sau două perechi pe un teren special amenajat despărțit în două printr-o plasă joasă,sport
+munte,Ridicătură a scoarței pământului mai mare decât dealul,forma de relief
+cal,Animal domestic erbivor cu copita nedespicată folosit la călărie și la tracțiune,animal
+sarpe,Ordin de reptile lipsite de membre cu corpul cilindric adaptate la târâre prin mișcări ondulatorii,animal
+biscuit,Produs alimentar bine deshidratat prin coacerea unui aluat de prăjitură tăiat în diferite forme,aliment
+oglinda,Obiect cu o suprafață netedă și lucioasă de diferite forme,obiect
+masina de tuns iarba,Sistem tehnic alcătuit din piese cu mișcări determinate cu scopul de a tunde iarba,automobil
+pepene,fruct cu seminte ,fruct
